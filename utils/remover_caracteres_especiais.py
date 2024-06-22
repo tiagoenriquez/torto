@@ -1,0 +1,13 @@
+def remover_caracteres_especiais(palavra: str) -> str:
+    palavra = palavra.replace('á', 'a')
+    palavra = palavra.replace('â', 'a')
+    palavra = palavra.replace('ã', 'a')
+    palavra = palavra.replace('ç', 'c')
+    palavra = palavra.replace('é', 'e')
+    palavra = palavra.replace('ê', 'e')
+    palavra = palavra.replace('í', 'i')
+    palavra = palavra.replace('ó', 'o')
+    palavra = palavra.replace('ô', 'o')
+    palavra = palavra.replace('õ', 'o')
+    palavra = palavra.replace('ú', 'u')
+    return palavra.upper()
